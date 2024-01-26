@@ -1,26 +1,27 @@
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
   font-family: "Inter", sans-serif;
 }
 
 .logo {
-  width: 160px;
-  position: absolute;
-  top: 25px;
-  left: 65px;
+  width: 140px;
+  margin-top: 90px;
 }
 
 nav {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   background-color: #feffd8;
   height: 80px;
+  padding: 0 20px;
 }
 
 .nav-bg {
-  margin-left: 245px;
   background-color: #76905c;
   display: flex;
   list-style: none;
@@ -36,7 +37,7 @@ nav {
 }
 
 nav li {
-  border-right: 1px solid white;
+  border-right: 1.5px solid #f9fbdf;
   padding-right: 50px;
 }
 
@@ -47,77 +48,134 @@ nav li:last-child {
 
 nav a {
   text-decoration: none;
-  color: white;
+  color: #f9fbdf;
 }
 
 .ham-menu {
   list-style: none;
-  padding-left: 170px;
 }
 
 .feather-minus {
-    rotate: 90deg;
-    color: #76905c;
-}
-
-.feather-menu {
-    color: #76905c;
+  padding-right: 10px;
 }
 
 .container {
   display: flex;
-  gap: 45px;
-  margin-top: 35px;
-  margin-bottom: 50px;
+  overflow-x: hidden;
+  gap: 35px;
+  margin:20px 0;
 }
 
 .left {
-  width: 600px;
-  background-color: #feffd8;
+  width: 200px;
+  position: relative;
+  z-index: -1;
+  padding: 15px 10px;
+  background-color: #76905c;
   margin-left: 35px;
+  margin-top: 70px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  flex-direction: column;
 }
 
 .left img {
-  width: 100%;
+  padding-bottom: 15px;
 }
 
-.left-container {
-  background-color: white;
-  width: 85%;
-}
-
-.left-title {
-  background-color: #2f7db5;
-  font-size: 22px;
-  color: white;
-  padding: 5px 30px;
+.left-info {
+  text-align: center;
+  color: #fff;
   margin-bottom: 10px;
 }
 
+.left-info h1 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.left-info hr {
+  margin: 10px 0;
+}
+
+.left-info h3 {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.left-info .address {
+  font-size: 12px;
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+
+.left-info p {
+  font-weight: bold;
+  font-size: 10px;
+  text-align: left;
+}
+
+.left-info .titik-dua {
+  margin-left: 56px;
+}
+
 .right {
+  font-family: "Amaranth", sans-serif;
+  background-color: #fcffd9;
+  width: 500px;
+  position: relative;
+}
+
+.right h1 {
+  color: #76905c;
+  text-align: center;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 130px 0;
+  padding-bottom: 105px;
+  margin-right: 70px;
+}
+
+.right img {
+  position: absolute;
+  width: 500px;
+  right: -445px;
+  top: 0;
+  margin-top: 27px;
+}
+
+.right-sub {
+  margin-left: 20px;
+  color: #76905c;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.trending{
+  background-color: #76905C;
+  margin: 0 35px;
+  padding: 15px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.trending-text{
+  width: 200px;
+  margin-top: 15px;
+}
+
+.trending-images{
+  display: flex;
+  justify-content: space-between;
   gap: 20px;
-  flex-wrap: wrap;
 }
 
-.card-review {
-  background-color: #feffd8;
-  height: 237px;
-  width: 202px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.review-body {
-  background-color: white;
-  height: 213px;
-  width: 179px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.trending-images img{
+  width: 130px;
 }
