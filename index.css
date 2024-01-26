@@ -95,6 +95,8 @@ nav a {
 
 .left-info hr {
   margin: 10px 0;
+  border: none; /* Menghapus border garis horizontal */
+  border-top: 2px solid #fff; /* Menambahkan border atas dengan warna putih */
 }
 
 .left-info h3 {
@@ -108,6 +110,10 @@ nav a {
   margin-bottom: 25px;
 }
 
+.left-info h3.address {
+  font-weight: normal;
+}
+
 .left-info p {
   font-weight: bold;
   font-size: 10px;
@@ -116,6 +122,11 @@ nav a {
 
 .left-info .titik-dua {
   margin-left: 56px;
+}
+
+.left-info span {
+  font-weight: normal;
+  color: white; /* Warna teks abu-abu */
 }
 
 .right{
