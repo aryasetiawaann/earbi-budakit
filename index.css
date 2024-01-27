@@ -49,6 +49,7 @@ nav li:last-child {
 nav a {
   text-decoration: none;
   color: #f9fbdf;
+  font-weight: bold;
 }
 
 .ham-menu {
