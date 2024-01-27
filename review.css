@@ -46,6 +46,9 @@ nav li:last-child {
 nav a {
   text-decoration: none;
   color: #f9fbdf;
+}
+
+nav .onpage {
   font-weight: bold;
 }
 
