@@ -66,14 +66,12 @@ nav a {
 
 .left {
   width: 600px;
-  /* height: max-content; */
   position: relative;
   z-index: -1;
   background-color: #feffd8;
   margin-left: 40px;
   display: flex;
   justify-content: center;
-  /* align-items: center; */
   text-align: center;
 }
 
@@ -90,7 +88,7 @@ nav a {
 
 .left-title {
   background-color: #2f7db5;
-  font-size: 22px;
+  font-size: 20px;
   color: white;
   padding: 5px 30px;
   margin-bottom: 10px;
